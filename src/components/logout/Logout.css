@@ -1,0 +1,12 @@
+.btn-logout {
+    font-size: 16px;
+    border: 1px solid var(--color-blue);
+    border-radius: 5px;
+    background: transparent;
+    color: var(--color-blue);
+    padding: 4px 10px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}

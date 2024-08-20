@@ -1,13 +1,131 @@
-body {
+body,
+html {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  height: 100%;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#root {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 100%;
+}
+
+:root {
+  --color-red: #be123c;
+  --color-blue: #0ea5e9;
+  --color-light-blue: #7dd3fc;
+  --color-gray: #d1d5db;
+  --color-dark-gray: #f3f4f680;
+  --color-darker-gray: #9ca3af;
+}
+
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.text-5xl {
+  font-size: 3rem;
+  line-height: 3rem;
+}
+
+.text-6xl {
+  font-size: 3.75rem;
+  line-height: 3.75rem;
+}
+
+.text-7xl {
+  font-size: 4.5rem;
+  line-height: 4.5rem;
+}
+
+.text-8xl {
+  font-size: 6rem;
+  line-height: 6rem;
+}
+
+.text-9xl {
+  font-size: 8rem;
+  line-height: 8rem;
+}
+
+.f-w-500 {
+  font-weight: 500;
+}
+
+.f-w-700 {
+  font-weight: 700;
+}
+
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.fav-button {
+  position: absolute;
+  top: 10px;
+  background-color: var(--color-dark-gray);
+  color: var(--color-gray);
+  border: none;
+  border-radius: 50%;
+  padding: 7px;
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  font-size: 16px;
+  right: 10px;
+  opacity: 0.8;
+  transition: all 300ms;
+}
+
+.fav-button:hover {
+  opacity: 1;
+}
+
+.fav-button-active {
+  color: var(--color-red) !important;
 }

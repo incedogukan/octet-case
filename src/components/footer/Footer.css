@@ -1,0 +1,25 @@
+.footer {
+    margin-bottom: 30px;
+    gap: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.copyright {
+    font-weight: 500;
+    color: var(--color-gray);
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    gap: 36px;
+}
+
+.social {
+    font-size: 24px;
+    gap: 36px;
+    display: flex;
+    justify-content: center;
+}

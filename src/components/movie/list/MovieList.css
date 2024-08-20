@@ -1,0 +1,18 @@
+.movie-container {
+  height: auto;
+  padding: 30px 0px;
+}
+
+.movie-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.movie-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 40px 0px;
+  gap: 64px;
+  align-items: center;
+}

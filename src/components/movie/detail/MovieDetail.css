@@ -1,0 +1,43 @@
+.detail-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-bottom: 30px;
+  height: 100%;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background-color: var(--color-darker-gray);
+  margin: 20px 0;
+}
+
+.movie-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-block: 10px;
+}
+
+.imdb {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.categories {
+  color: var(--color-darker-gray);
+}
+
+.back-btn {
+  position: absolute;
+  top: 14px;
+  left: 10px;
+  background-color: var(--color-blue);
+  color: white;
+  border: none;
+  height: 30px;
+  border-radius: 5px;
+  padding: 2px 10px;
+}

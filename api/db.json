@@ -1,0 +1,262 @@
+{
+  "movies": [
+    {
+      "id": 1,
+      "name": "Inception",
+      "coverImage": "images/inception.jpg",
+      "contentImage": "/images/stranger_things_content.jpg",
+      "categories": [
+        "Action",
+        "Sci-Fi",
+        "Thriller"
+      ],
+      "imdbRate": "8.8",
+      "country": "USA",
+      "year": "2010",
+      "isTvSeries": false,
+      "summary": "Rüya paylaşım teknolojisini kullanarak kurumsal sırları çalan bir hırsız, bir CEO'nun zihnine bir fikir yerleştirme görevi alır.",
+      "isFavorite": false
+    },
+    {
+      "id": 2,
+      "name": "Breaking Bad",
+      "coverImage": "images/breaking_bad.jpg",
+      "contentImage": "/images/stranger_things_content.jpg",
+      "categories": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "imdbRate": "9.5",
+      "country": "USA",
+      "year": "2008",
+      "isTvSeries": true,
+      "summary": "Ailesinin geleceğini güvence altına almak için metamfetamin üreticisi olan bir lise kimya öğretmeni, eski bir öğrencisiyle ortak olur."
+    },
+    {
+      "id": 3,
+      "name": "The Dark Knight",
+      "coverImage": "images/dark_knight.jpg",
+      "contentImage": "/images/stranger_things_content.jpg",
+      "categories": [
+        "Action",
+        "Crime",
+        "Drama"
+      ],
+      "imdbRate": "9.0",
+      "country": "USA",
+      "year": "2008",
+      "isTvSeries": false,
+      "summary": "Batman, Gotham Şehri'ni anarşiyle tehdit eden Joker'in neden olduğu kaosa karşı mücadele eder.",
+      "isFavorite": true
+    },
+    {
+      "id": 4,
+      "name": "Game of Thrones",
+      "coverImage": "images/game_of_thrones.jpg",
+      "contentImage": "/images/stranger_things_content.jpg",
+      "categories": [
+        "Action",
+        "Adventure",
+        "Drama"
+      ],
+      "imdbRate": "9.3",
+      "country": "USA",
+      "year": "2011",
+      "isTvSeries": true,
+      "summary": "Westeros'un Yedi Krallığı'nda taht mücadelesi veren soylu ailelerin hikayesi.",
+      "isFavorite": true
+    },
+    {
+      "id": 5,
+      "name": "The Godfather",
+      "coverImage": "images/god_father.jpg",
+      "contentImage": "/images/stranger_things_content.jpg",
+      "categories": [
+        "Crime",
+        "Drama"
+      ],
+      "imdbRate": "9.2",
+      "country": "USA",
+      "year": "1972",
+      "isTvSeries": false,
+      "summary": "Bir İtalyan-Amerikan suç ailesinin başındaki adamın, oğlunu ailesinin işine nasıl dahil ettiğini anlatan hikaye.",
+      "isFavorite": false
+    },
+    {
+      "id": 6,
+      "name": "Stranger Things",
+      "coverImage": "images/stranger_things.jpg",
+      "contentImage": "/images/stranger_things_content.jpg",
+      "categories": [
+        "Drama",
+        "Fantasy",
+        "Horror"
+      ],
+      "imdbRate": "8.7",
+      "country": "USA",
+      "year": "2016",
+      "isTvSeries": true,
+      "summary": "Kayıp bir çocuğu arayan küçük bir kasaba, gizli deneyler ve doğaüstü varlıklarla dolu bir gizemi ortaya çıkarır.",
+      "isFavorite": false
+    },
+    {
+      "id": 7,
+      "name": "Pulp Fiction",
+      "coverImage": "images/pulp_fiction.jpg",
+      "contentImage": "/images/stranger_things_content.jpg",
+      "categories": [
+        "Crime",
+        "Drama"
+      ],
+      "imdbRate": "8.9",
+      "country": "USA",
+      "year": "1994",
+      "isTvSeries": false,
+      "summary": "Birbirine bağlı çeşitli suç hikayelerini anlatan, Tarantino'nun kült filmi.",
+      "isFavorite": false
+    },
+    {
+      "id": 8,
+      "name": "Sherlock",
+      "coverImage": "images/sherlock.jpg",
+      "contentImage": "/images/stranger_things_content.jpg",
+      "categories": [
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
+      "imdbRate": "9.1",
+      "country": "UK",
+      "year": "2010",
+      "isTvSeries": true,
+      "summary": "Modern Londra'da geçen, dedektif Sherlock Holmes'un maceraları.",
+      "isFavorite": false
+    },
+    {
+      "id": 9,
+      "name": "The Shawshank Redemption",
+      "coverImage": "images/shawshank_redemption.jpg",
+      "contentImage": "/images/stranger_things_content.jpg",
+      "categories": [
+        "Drama"
+      ],
+      "imdbRate": "9.3",
+      "country": "USA",
+      "year": "1994",
+      "isTvSeries": false,
+      "summary": "Masum olduğu halde hapse giren bir adamın, Shawshank Hapishanesi'nde yıllar süren dostluk ve kurtuluş mücadelesi."
+    },
+    {
+      "id": 10,
+      "name": "The Witcher",
+      "coverImage": "images/witcher.jpg",
+      "contentImage": "/images/stranger_things_content.jpg",
+      "categories": [
+        "Action",
+        "Adventure",
+        "Drama"
+      ],
+      "imdbRate": "8.2",
+      "country": "USA",
+      "year": "2019",
+      "isTvSeries": true,
+      "summary": "Rivyalı Geralt, bir canavar avcısı olarak tehlikelerle dolu bir dünyada yolculuk yaparken, kaderini keşfeder."
+    },
+    {
+      "id": 12,
+      "name": "Friends",
+      "coverImage": "images/friends.jpg",
+      "contentImage": "/images/stranger_things_content.jpg",
+      "categories": [
+        "Comedy",
+        "Romance"
+      ],
+      "imdbRate": "8.9",
+      "country": "USA",
+      "year": "1994",
+      "isTvSeries": true,
+      "summary": "New York'ta yaşayan altı yakın arkadaşın hayatları, aşkları ve komik maceraları."
+    },
+    {
+      "id": 13,
+      "name": "The Lord of the Rings",
+      "coverImage": "images/lord_of_the_rings.jpg",
+      "contentImage": "/images/stranger_things_content.jpg",
+      "categories": [
+        "Adventure",
+        "Drama",
+        "Fantasy"
+      ],
+      "imdbRate": "8.8",
+      "country": "New Zealand",
+      "year": "2001",
+      "isTvSeries": false,
+      "summary": "Küçük bir hobbit, Orta Dünya'yı kurtarmak için yola çıkar ve tehlikelerle dolu bir maceraya atılır."
+    },
+    {
+      "id": 14,
+      "name": "Narcos",
+      "coverImage": "images/narcos.jpg",
+      "contentImage": "/images/stranger_things_content.jpg",
+      "categories": [
+        "Biography",
+        "Crime",
+        "Drama"
+      ],
+      "imdbRate": "8.8",
+      "country": "USA",
+      "year": "2015",
+      "isTvSeries": true,
+      "summary": "Kolombiya'nın ünlü uyuşturucu baronu Pablo Escobar'ın hayatı ve uyuşturucu kartellerinin yükselişi."
+    },
+    {
+      "id": 16,
+      "name": "Peaky Blinders",
+      "coverImage": "images/peaky_blinders.jpg",
+      "contentImage": "/images/stranger_things_content.jpg",
+      "categories": [
+        "Crime",
+        "Drama"
+      ],
+      "imdbRate": "8.8",
+      "country": "UK",
+      "year": "2013",
+      "isTvSeries": true,
+      "summary": "Birinci Dünya Savaşı sonrası İngiltere'de, Shelby ailesinin liderliğindeki çetenin hikayesi."
+    },
+    {
+      "id": 18,
+      "name": "The Crown",
+      "coverImage": "images/crown.jpg",
+      "contentImage": "/images/stranger_things_content.jpg",
+      "categories": [
+        "Biography",
+        "Drama",
+        "History"
+      ],
+      "imdbRate": "8.6",
+      "country": "UK",
+      "year": "2016",
+      "isTvSeries": true,
+      "summary": "Kraliçe II. Elizabeth'in saltanatını ve İngiliz Kraliyet Ailesi'nin siyasi ve kişisel zorluklarını konu alır."
+    },
+    {
+      "id": 20,
+      "name": "Black Mirror",
+      "coverImage": "images/black_mirror.jpg",
+      "contentImage": "/images/stranger_things_content.jpg",
+      "categories": [
+        "Drama",
+        "Sci-Fi",
+        "Thriller"
+      ],
+      "imdbRate": "8.8",
+      "country": "UK",
+      "year": "2011",
+      "isTvSeries": true,
+      "summary": "Modern toplumun karanlık ve satirik bir yorumu olarak teknoloji ve insan doğasının kesişim noktalarını araştıran antoloji serisi.",
+      "isFavorite": false
+    }
+  ]
+}
